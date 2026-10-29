@@ -1,14 +1,3 @@
-/*
-  Do HR + SpO2 bang MAX30102, hien thi len LCD 1602 I2C (PCF8574)
-  ESP32 DevKit + ESP-IDF v5.2 tro len (driver i2c_master moi)
-  CHI DUNG HOC TAP - KHONG PHAI THIET BI Y TE
-
-  Noi day (I2C chung):
-    MAX30102 VIN -> 3V3, GND -> GND, SDA -> GPIO21, SCL -> GPIO22
-    LCD1602  VCC -> 3V3 (hoac 5V neu da xu ly pull-up), GND -> GND,
-             SDA -> GPIO21, SCL -> GPIO22
-*/
-
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
